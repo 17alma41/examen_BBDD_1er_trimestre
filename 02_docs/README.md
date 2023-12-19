@@ -6,18 +6,13 @@ Nombre: Álvaro Román Bermúdez
 
 Fecha: 19/12/2023
 
-## Inicio
+##Descripción del ejercicio "SORTEO"
 
-Para empezar, crea un fork de este repositorio, clónalo en tu ordenador y abre el proyecto con VSCode.
+La funcionalidad de esta página consiste en sortear un "texto", en el que se puede poner nombre, número, etc. 
 
-Edita este fichero README.md con tu nombre y la fecha de hoy, una vez hagas un commit inicial, estas listo para empezar!
+Una vez que hayamos escrito nuestro texto en el "input de texto" luego podemos añadirlo en pantalla (Existen dos opciones: pulsando el **botón Añadir** de la página o pulsando la tecla **Enter** del teclado), con esa información añadida (arriba a la izquierda, abajo de la palabra "Participantes"), tenemos la posibilidad de pulsar el botón **Sortear** para que nos de un texto aleatorio que nos aparecera abajo de todos los botones, también tienes la posibilidad de pulsar el botón **Borrar** para eliminar a todos los participantes de la página.
+Debemos tener en cuenta que una vez que se reinicie la página se quedará guardado automáticamente la lista de participantes anteriormente puesta (solo si no se ha borrado anteriormente).
 
-El examen está dividido en 3 partes, cada una de ellas en una carpeta diferente:
+Por último existe un botón arriba a la derecha, en el header de la de la página, dónde te llevará a la página que estas leyendo en este momento.
 
-- `00_teoria`: Varias preguntas de teoría.
-- `01_practica`: Ejercicio con html+js.
-- `02_docs`: Documentación del ejercicio realizado.
-
-Es importante que realizes primero la parte de teoría, aunque las partes de práctica y documentación se pueden realizar como quieras.
-
-Cada directorio tiene instrucciones en su interior, léelas con atención, y si tienes alguna duda, preguntame!
+[Enlace CODEPEN](https://codepen.io/17alma41/pen/ZEPzYwv)
