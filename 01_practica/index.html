@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Examen-BBDD</title>
+</head>
+<header class="left">
+    <h1>Participantes</h1>
+    <div class="linkheader">
+        <a href="/02_docs/README.md" class="enlace-btn">
+            <button class="buttonLinkColor" type="button">Ver documentación</button>
+          </a>
+    </div>
+</header>
+<body>
+    <div class="results">
+
+    </div>
+    <div class="container">
+        <input id= "input_usuario" type="text" placeholder="Escribe aquí" onkeydown="teclaEnter(event)">
+        <button onclick="añadir()" >Añadir</button>
+        <button onclick="borrar()">Borrar</button>
+        <button onclick="sortea()">Sortea</button>
+        <div class="textoganador">
+    
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
