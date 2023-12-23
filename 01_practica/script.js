@@ -1,12 +1,12 @@
-let lista = [JSON.parse(localStorage.getItem("lista"))]
-
+let lista = JSON.parse(localStorage.getItem("lista"))
+console.log(lista)
 if(lista === null){
   lista = []
 }else{
   for(let i = 0; i < lista.length; i++){
     const elemento = document.createElement("p")
     elemento.innerHTML = lista[i]
-    document.querySelector(".resultados").appendChild(elemento)
+    document.querySelector(".results").appendChild(elemento)
   }
 }
 
@@ -17,6 +17,8 @@ function añadir(){
     elemento.innerHTML = valor
     document.querySelector(".results").appendChild(elemento)
     document.querySelector("#input_usuario").value = ""
+    localStorage.setItem("lista", JSON.stringify(lista))
+  
 }
 
 function borrar(){
